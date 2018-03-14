@@ -44,8 +44,8 @@ public class CB {
 	/*	driver.findElement(By.id("ctl00_ctl00_cphHeader_navResHeader_loginBar_btnLogIn")).click();
 		Thread.sleep(20000);*/
 		driver.findElement(By.xpath("//*[@id='top-bar']/nav[1]/div/div/ul/li[2]/a/span")).click();
-		driver.findElement(By.xpath("//*[@id='cbsys_login_email']")).sendKeys("suresh@mlwiz.com");
-		driver.findElement(By.xpath("//*[@id='cbsys_login_password']")).sendKeys("Monk1234");
+		driver.findElement(By.xpath("//*[@id='cbsys_login_email']")).sendKeys("");
+		driver.findElement(By.xpath("//*[@id='cbsys_login_password']")).sendKeys("");
 		driver.findElement(By.xpath("//*[@id='btnsigninemp']")).click();
 		driver.findElement(By.xpath("//*[@id='_ctl4_RDBAdvancedSearch']")).click();
 		driver.findElement(By.xpath("//*[@id='txtKeywords']")).sendKeys("\"Pega Architect\"");
